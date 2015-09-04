@@ -59,7 +59,7 @@ public class ImageFragment extends Fragment {
             task.execute(mtpDevice);
         }
         
-        return inflater.inflate(R.layout.image_fragment, container, false);
+        return returnView;
     }
     
     @Override
